@@ -1,10 +1,22 @@
-body{
-
-background-color: black;
-
+body {
+  background-color: black;
 }
-
-
+@media (max-width: 600px) {
+  body {
+    background-color: rgb(51, 67, 241);
+  }
+}
+@media (min-width: 600px) {
+  body {
+  }
+  .GIF {
+    width: 300px;
+    height: auto;
+  }
+  .laligaimage {
+    width: 10%;
+  }
+}
 
 .GIF {
   background-color: black;
@@ -20,7 +32,7 @@ background-color: black;
   height: auto;
   border-width: 10px;
 }
-.searchbar-div{
+.searchbar-div {
   border: solid greenyellow;
   height: 30px;
   margin: 5px;
@@ -28,15 +40,13 @@ background-color: black;
   background-color: gray;
   display: flex;
   padding: 1%;
- 
 }
-#searchid{
+#searchid {
   background-color: rgb(62, 59, 59);
   width: 100%;
   height: 100%;
-border: none;
-color: rgb(217, 217, 243);
- 
+  border: none;
+  color: rgb(217, 217, 243);
 }
 
 .div-navigation {
@@ -44,7 +54,6 @@ color: rgb(217, 217, 243);
   height: 8vh;
   margin: 5px;
   display: flex;
- 
 }
 .div-navigation a {
   text-decoration: none;
@@ -89,13 +98,10 @@ color: rgb(217, 217, 243);
   background-color: cadetblue;
   color: rgb(0, 8, 9);
   margin-left: 18px;
-text-align: center;
-
-
-
+  text-align: center;
 }
 .availiable-space h1 {
-font-size: 5em;
+  font-size: 5em;
 }
 
 .div-toppictures {
@@ -121,16 +127,17 @@ font-size: 5em;
   height: 100%;
 }
 .laligaimage {
-  width: 200px;
+  width: 100%;
   height: 100%;
 }
 
 table {
   width: 100%;
-  background-color: antiquewhite;
-  border: 1px;
+  background-color: rgb(194, 204, 247);
+  border: solid rgb(42, 68, 42) 7px;
   text-align: center;
   border-collapse: collapse;
+  margin: 10px;
 }
 th,
 td {
@@ -139,6 +146,6 @@ td {
 
 .aboutandcontact {
   width: 100px;
-text-decoration: none;
-  background-color: rgb(137, 239, 3);
+  background-color: rgb(183, 183, 182);
+  border: solid cornflowerblue;
 }
