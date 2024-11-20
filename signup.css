@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(156, 156, 249);
+}
+.registration{
+border: solid black;
+height: 400px;
+
+}
+.registration h1{
+
+    font-size: 3em;
+    
+}
